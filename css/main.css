@@ -35,6 +35,7 @@ nav ul li.logo {
 nav ul li.logo span {
   font-weight: bold;
 }
+
 section {
   min-height: 100vh;
 }
@@ -47,16 +48,16 @@ section#landing .container {
   top: 50%;
   transform: translateY(-50%);
 }
-section#landing .container .logo {
+section#landing .container .logo h1 {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 160px;
 }
-section#landing .container .logo span {
+section#landing .container .logo h1 span {
   font-weight: bold;
   font-size: 210px;
 }
-section#landing .container .sub-logo {
+section#landing .container .logo h2 {
   font-family: 'Raleway', sans-serif;
   padding-left: 10px;
   margin-top: -20px;
@@ -77,11 +78,10 @@ section.triangle-bottomright:after {
 }
 section.triangle-topleft:before {
   content: "";
-  position: relative;
   display: block;
+  position: relative;
   width: 50vw;
-  top: 0;
-  left: -50vw;
+  bottom: 0;
 	border-top: 100vh solid #CBB097;
 	border-right: 50vw solid transparent;
 }
